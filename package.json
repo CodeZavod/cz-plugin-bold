@@ -1,0 +1,23 @@
+{
+  "name": "cz_plugin_bold",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "find -E . -regex '^.\/[^.]+.*' -type f ! -name \"*.zip\" -type f ! -name \"package.json\" -type f ! -name \"LICENSE\" -print | zip cz_plugin_bold.zip -@"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CodeZavod/cz-plugin-bold.git"
+  },
+  "keywords": [
+    "WordPress",
+    "plugin"
+  ],
+  "author": "Igor Finagin <Igor@Finag.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeZavod/cz-plugin-bold/issues"
+  },
+  "homepage": "https://github.com/CodeZavod/cz-plugin-bold#readme"
+}
